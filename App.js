@@ -1,17 +1,19 @@
-import React from 'react';
-import { View,StyleSheet,Text } from 'react-native';
-import  {Statusbar} from "expo-status-bar"
+import React from 'react'
+import {NavigationContainer} from "@react-navigation/native"
+import {creatStackNavigator} from "@react-navigation/stack"
+import HomeScreen from "./src/screens/HomeScreen"
+const stack = creatStackNavigator()
 
 const HiRafsan = () => {
     return (
-      <View style={style.container}>
-      <Text>open letas somthing the </Text>
-      </View>
-    );
-};
+      <NavigationContainer>
+        <stack.Navigator initialRouteName="Home">
+          <stack.Screen name="Home" component={HomeScreen}/>
 
-const style = StyleSheet.create({
-  container:{flex: 1, backgroundColor:"purple",alignItems:"center",justifyContent:"center"},
-})
+          <stack.Screen name="list" component={HomeScreen}/>
+          </stack.Navigator>
+      </NavigationContainer>
+
+    )};
 
 export default HiRafsan;
