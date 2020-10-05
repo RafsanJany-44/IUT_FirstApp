@@ -7,8 +7,8 @@ const HomeScreen=()=>{
 const styles =StyleSheet.create({
     textStyle:{
         fontSize:30,
-        color: "bule",
-    }
+        color: "blue",
+    },
 })
 
 export default HomeScreen
