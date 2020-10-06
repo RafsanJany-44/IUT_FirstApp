@@ -14,7 +14,7 @@ const Home = (props)=>{
                 <Button
                     title="View My Profile"
                     onPress={function (){props.navigation.navigate("Profile")}}
-                    color="#C4FF1B"
+                    color="#659700"
                     margin="25"
                 />
             </View>
@@ -22,7 +22,7 @@ const Home = (props)=>{
                 <Button
                     title="Semester Info"
                     onPress={function (){props.navigation.navigate("Semesters");}}
-                    color="#C4FF1B"
+                    color="#659700"
                     margin="25"
                 />
             </View>
@@ -30,7 +30,7 @@ const Home = (props)=>{
                 <Button
                     title="Faculty Members"
                     onPress={function (){props.navigation.navigate("FacultyList");}}
-                    color="#C4FF1B"
+                    color="#659700"
                     margin="25"
                 />
             </View>
