@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
   },
   viewStyle: {
     margin: 50,
+    backgroundColor:"#E7FFB6",
     alignSelf: 'center'
 },
 });

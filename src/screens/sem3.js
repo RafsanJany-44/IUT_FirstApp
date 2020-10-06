@@ -25,10 +25,12 @@ const styles = StyleSheet.create({
   textStyle: {
     fontSize: 16,
     color: "black",
+    
     marginVertical: 30,
   },
   viewStyle: {
     margin: 50,
+    backgroundColor:"#E7FFB6",
     alignSelf: 'center'
 },
 });

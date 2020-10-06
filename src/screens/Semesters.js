@@ -11,7 +11,7 @@ const Semesters = (props) => {
             props.navigation.navigate("Semester_1");
             }
           }
-          color="green"
+          color="#659700"
         />
       </View>
       <View style = {styles.buttonStyle}>
@@ -21,7 +21,7 @@ const Semesters = (props) => {
               props.navigation.navigate("Semester_2");
               }
             }
-          color="green"
+          color="#659700"
         />
       </View>
       <View style = {styles.buttonStyle}>
@@ -31,7 +31,7 @@ const Semesters = (props) => {
               props.navigation.navigate("Semester_3");
               }
           }
-          color="green"
+          color="#659700"
         />
       </View>
     </View>
@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
   },
   viewStyle: {
       margin: 100,
+      backgroundColor:"#E7FFB6",
       alignItems: 'center'
   },
   buttonStyle: {
