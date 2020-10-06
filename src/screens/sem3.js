@@ -24,12 +24,12 @@ const sem3 = () => {
 const styles = StyleSheet.create({
   textStyle: {
     fontSize: 16,
-    color: "black",
-    
+    color: "#E7FFB6",
+    backgroundColor:"#6E8700",
     marginVertical: 30,
   },
   viewStyle: {
-    margin: 50,
+    margin: 35,
     backgroundColor:"#E7FFB6",
     alignSelf: 'center'
 },

@@ -24,7 +24,8 @@ const sem1 = () => {
 const styles = StyleSheet.create({
   textStyle: {
     fontSize: 16,
-    color: "black",
+    color: "#E7FFB6",
+    backgroundColor:"#6E8700",
     marginVertical: 30,
   },
   viewStyle: {
