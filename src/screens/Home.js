@@ -9,15 +9,9 @@ const Home = (props)=>{
                     source={require ('../../assets/iutlogo.png')}
                     style={styles.imageStyle}
                 />
-
-            <View style = {styles.buttonStyle}>
-                <Button
-                    title="View My Profile"
-                    onPress={function (){props.navigation.navigate("Profile")}}
-                    color="#659700"
-                    margin="25"
-                />
-            </View>
+            <TouchableOpacity onPress={function (){props.navigation.navigate("Profile");}}>
+                <Text style = {styles.touchStyle}>View My Profile{"\n"}</Text>
+            </TouchableOpacity>
             <View style = {styles.buttonStyle}>
                 <Button
                     title="Semester Info"
@@ -63,7 +57,7 @@ const styles = StyleSheet.create(
         },
         touchStyle: {
             fontSize: 20,
-            color:'blue',
+            color:'tomato',
             textAlign: "center",
             margin: 15,
             textDecorationLine: 'underline',
