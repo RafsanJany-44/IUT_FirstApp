@@ -25,12 +25,13 @@ const FacultyList = () => {
 };
 const styles = StyleSheet.create({
   textStyle: {
-    fontSize: 15,
-    color: "#8DA000",
+    fontSize: 16,
+    color: "#E7FFB6",
+    backgroundColor:"#6E8700",
     marginVertical: 30,
   },
   viewStyle: {
-    margin: 50,
+    margin: 35,
     backgroundColor:"#E7FFB6",
     alignSelf: 'center'
 },
