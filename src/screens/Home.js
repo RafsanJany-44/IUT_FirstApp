@@ -9,15 +9,20 @@ const Home = (props)=>{
                     source={require ('../../assets/iutlogo.png')}
                     style={styles.imageStyle}
                 />
-            <Text style = {styles.textStyle}>*****{"\n"}Department{"\n"}of{"\n"}CSE{"\n"}*****{"\n"}Programme: SWE{"\n"}{"\n"}</Text>
-            <TouchableOpacity onPress={function (){props.navigation.navigate("Profile");}}>
-                <Text style = {styles.touchStyle}>View My Profile{"\n"}</Text>
-            </TouchableOpacity>
+
+            <View style = {styles.buttonStyle}>
+                <Button
+                    title="View My Profile"
+                    onPress={function (){props.navigation.navigate("Profile")}}
+                    color="#C4FF1B"
+                    margin="25"
+                />
+            </View>
             <View style = {styles.buttonStyle}>
                 <Button
                     title="Semester Info"
                     onPress={function (){props.navigation.navigate("Semesters");}}
-                    color="green"
+                    color="#C4FF1B"
                     margin="25"
                 />
             </View>
@@ -25,7 +30,7 @@ const Home = (props)=>{
                 <Button
                     title="Faculty Members"
                     onPress={function (){props.navigation.navigate("FacultyList");}}
-                    color="green"
+                    color="#C4FF1B"
                     margin="25"
                 />
             </View>
