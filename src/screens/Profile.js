@@ -8,10 +8,10 @@ const Profile = () => {
                 style={styles.imageStyle}
         />
         <Text style = {styles.textStyle}>
-            Name: Rafsan Jany{"\n"}{"\n"}
+            Name        : Rafsan Jany{"\n"}{"\n"}
             Student ID: 170042044{"\n"}{"\n"}
-            Room No: N/A (non-res){"\n"}{"\n"}
-            Email: rafsanjany@iut-dhaka.edu
+            Room No  : N/A (non-res){"\n"}{"\n"}
+            Email     : rafsanjany@iut-dhaka.edu
         </Text>
     </View>
   );
