@@ -19,17 +19,17 @@ const Profile = () => {
 const styles = StyleSheet.create({
   textStyle: {
     fontSize: 20,
-    color: "black",
+    color: "#8DA000",
     margin: 20,
     alignSelf: "center",
   },
   viewStyle: {
     margin: 50,
     alignSelf: "center",
-    backgroundColor: "skyblue",
+    backgroundColor: "#E7FFB6",
   },
   imageStyle: {
-    height: 300,
+    height: 400,
     width: 300,
     alignSelf: 'center',
 },

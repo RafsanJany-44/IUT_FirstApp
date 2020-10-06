@@ -57,7 +57,7 @@ const styles = StyleSheet.create(
         },
         touchStyle: {
             fontSize: 20,
-            color:'tomato',
+            color:'#8DA000',
             textAlign: "center",
             margin: 15,
             textDecorationLine: 'underline',
